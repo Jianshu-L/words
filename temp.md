@@ -1,22 +1,22 @@
-|    | words       | property   | meaning                |   forget |
-|---:|:------------|:-----------|:-----------------------|---------:|
-| 14 | melanin     | n          | 黑色素                 |        0 |
-| 20 | enactment   | n          | 制定，通过，上演       |        0 |
-| 26 | defecate    | v          | 排便                   |        0 |
-| 13 | revoke      | v          | 撤回，废除             |        1 |
-| 60 | spawn       | n/v        | 产卵                   |        0 |
-| 52 | cavity      | n          | 腔，孔，洞             |        0 |
-| 51 | heritage    | n          | 遗产，传统             |        0 |
-| 61 | substantial | adj        | 大量的，实质性的       |        1 |
-| 32 | relegate    | v          | 降级，转移             |        1 |
-| 48 | hieratic    | adj        | 僧侣的                 |        0 |
-| 31 | divine      | adj        | 神性的                 |        0 |
-| 59 | bold        | adj        | 大胆的，醒目的，莽撞的 |        0 |
-| 33 | vicious     | adj        | 邪恶的，恶性的         |        1 |
-| 45 | vibration   | n          | 震动，颤动             |        0 |
-| 58 | stem        | n/v        | 阻止，茎，起源于       |        0 |
-| 36 | stigma      | n          | 耻辱，污名             |        0 |
-|  0 | ponderous   | adj.       | 沉重的，沉闷的         |        0 |
-| 47 | hardy       | adj        | 吃苦耐劳的             |        0 |
-|  4 | hedge       | n/v        | 树篱，限制，防范       |        0 |
-| 11 | recess      | n/v        | 休息休会               |        0 |
+|    | words     | property   | meaning                            |   forget |
+|---:|:----------|:-----------|:-----------------------------------|---------:|
+| 68 | sled      | n/v        | 雪橇，坐雪橇                       |        0 |
+| 69 | vital     | adj        | 至关重要的，充满活力的，生死攸关的 |        0 |
+| 70 | besiege   | v          | 围攻                               |        0 |
+| 71 | scout     | n/v        | 侦察，物色，搜寻                   |        0 |
+| 72 | herd      | n/v        | 兽群，放牧                         |        0 |
+| 73 | sew       | v          | 缝补                               |        0 |
+| 74 | buck      | n/v        | 美元，公羊，抵制                   |        0 |
+| 75 | avert     | v          | 转移，避开，避免                   |        0 |
+| 76 | shuttle   | n/v        | 穿梭，往返                         |        0 |
+| 77 | sake      | n          | 缘故，理由                         |        0 |
+| 78 | flap      | n/v        | 拍动，摆动，焦虑，封盖             |        0 |
+| 79 | adjunct   | n/adj      | 附件，附属的                       |        0 |
+| 80 | wasp      | n          | 黄蜂                               |        0 |
+| 81 | foment    | v          | 煽动，激起                         |        0 |
+| 82 | stalk     | n/v        | 茎，跟踪，昂首阔步地走             |        0 |
+| 83 | sanctuary | n          | 避难所，庇护所                     |        0 |
+| 84 | closet    | adj/n      | 隐藏的，壁橱                       |        0 |
+| 85 | speculate | v          | 推测，思索，投机                   |        0 |
+| 86 | abiding   | adj        | 持久不变的                         |        0 |
+| 87 | yield     | n/v        | 屈服，产量，利润                   |        0 |

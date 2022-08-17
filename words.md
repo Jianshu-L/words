@@ -5,8 +5,8 @@
 |  2 | eschew        | v.         | 避开，回避                     |        0 |
 |  3 | advisable     | adj        | 明智的，可取的                 |        0 |
 |  4 | hedge         | n/v        | 树篱，限制，防范               |        0 |
-|  5 | liable        | adj.       | 有责任的，有倾向的，易受影响的 |        0 |
-|  6 | exhort        | v.         | 规劝，告诫                     |        0 |
+|  5 | liable        | adj.       | 有责任的，有倾向的，易受影响的 |        1 |
+|  6 | exhort        | v.         | 规劝，告诫                     |        1 |
 |  7 | disparate     | adj        | 完全不同的                     |        0 |
 |  8 | spurn         | v          | 轻蔑地拒绝                     |        0 |
 |  9 | expeditious   | adj        | 迅速有效的                     |        0 |
@@ -22,7 +22,7 @@
 | 19 | flock         | n/v        | 群，聚集                       |        0 |
 | 20 | enactment     | n          | 制定，通过，上演               |        0 |
 | 21 | sluggish      | adj        | 缓慢的，迟缓的                 |        0 |
-| 22 | obsolete      | adj        | 过时的，废弃的                 |        0 |
+| 22 | obsolete      | adj        | 过时的，废弃的                 |        1 |
 | 23 | delectable    | adj        | 美味的                         |        0 |
 | 24 | abrasion      | n          | 擦伤，磨损                     |        0 |
 | 25 | burrow        | n/v        | 挖洞，翻寻，地洞               |        0 |

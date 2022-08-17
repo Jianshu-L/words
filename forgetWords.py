@@ -8,7 +8,8 @@ import random
 Path = "/mnt/c/Users/ljs/Documents"
 fileNames = [fileName for fileName in os.listdir(Path) if fileName.endswith("csv")]
 # df = pd.read_csv(f'{Path}/{fileNames[0]}',header=None, names=np.array(["words","property","meaning"]))
-
+# forget = np.zeros(df.shape[0])
+# df['forget'] = forget
 
 def assignForget(df, words):
     try:
@@ -28,7 +29,7 @@ def assignForget(df, words):
 def showWords(df,index):
     print(np.floor(df.shape[0]/20))
     if index == 0:
-        return df.iloc[random.sample(range(0,64),20),:]
+        return df.sample(n=20)
     if index > np.floor(df.shape[0]/20):
         index = np.int8(np.floor(df.shape[0]/20))
         return df.iloc[:-index*20,:]
@@ -42,16 +43,19 @@ def showForget(df):
 
 # %%
 if __name__ == '__main__':
+    fileNames = [fileName for fileName in os.listdir() if fileName.endswith("csv")]
     # words = ["revoke","recoil","strip","vicious","relegate","shrewd", "resent","crusade","thorn","lethal","eloquent","reluctant","garb","substantial"]
-    df = pd.read_csv("words.csv")
-    index = np.int8(sys.argv[1])
-    showWords(df, index).to_markdown('temp.md')
-    if len(sys.argv) > 2:
-        words = sys.argv[2:]
-        print(words)
-        df = assignForget(df, words)
-        df.to_csv("words.csv", index=False)
-        df.to_markdown('words.md')
-    showForget(df).to_markdown('forget.md')
-
+    df_f = pd.DataFrame()
+    for fileName in fileNames:
+        df = pd.read_csv(fileName)
+        # assign forget words
+        if len(sys.argv) > 1:
+            words = sys.argv[1:]
+            df = assignForget(df, words)
+            df.to_csv(fileName, index=False)
+            df.to_markdown(fileName.replace("csv","md"))
+        df_f_i = showForget(df).sample(frac=1)
+        df_f = pd.concat([df_f,df_f_i],ignore_index=True)
+        df_f_i.to_markdown(f'{fileName.replace(".csv","_")}forget.md')
+df_f.to_markdown("forget.md")
 
