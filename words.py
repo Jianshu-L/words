@@ -11,10 +11,17 @@ fileNames = [fileName for fileName in os.listdir(Path) if fileName.endswith("csv
 
 
 def assignForget(df, words):
-    forget = np.zeros(df.shape[0])
+    try:
+        forget = df['forget'].values
+    except:
+        forget = np.zeros(df.shape[0])
     for word in words:
-        index = np.where(df['words'] == word)
-        forget[index] = 1
+        if word.startswith("-"):
+            index = np.where(df['words'] == word[1:])
+            forget[index] = 0
+        else:
+            index = np.where(df['words'] == word)
+            forget[index] = 1
     df['forget'] = forget
     return df
 
