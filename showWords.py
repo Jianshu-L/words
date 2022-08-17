@@ -23,5 +23,12 @@ if __name__ == '__main__':
     # words = ["revoke","recoil","strip","vicious","relegate","shrewd", "resent","crusade","thorn","lethal","eloquent","reluctant","garb","substantial"]
     df = pd.read_csv(f"words_{sys.argv[1]}.csv")
     index = np.int8(sys.argv[2])
-    showWords(df, index).to_markdown('temp.md')
+    try:
+        Random = sys.argv[3]
+    except:
+        Random = 0
+    if Random:
+        showWords(df, index).sample(frac=1).to_markdown('temp.md')
+    else:
+        showWords(df, index).to_markdown('temp.md')
 
