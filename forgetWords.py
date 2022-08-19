@@ -44,7 +44,6 @@ def showForget(df):
 # %%
 if __name__ == '__main__':
     fileNames = [fileName for fileName in os.listdir() if fileName.endswith("csv")]
-    # words = ["revoke","recoil","strip","vicious","relegate","shrewd", "resent","crusade","thorn","lethal","eloquent","reluctant","garb","substantial"]
     df_f = pd.DataFrame()
     for fileName in fileNames:
         df = pd.read_csv(fileName)
