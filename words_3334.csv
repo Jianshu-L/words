@@ -1,12 +1,12 @@
 words,property,meaning,forget
 detract,v,降低，诋毁,0.0
-scourge,n/v,灾难，鞭子,0.0
+scourge,n/v,灾难，鞭子,1.0
 aberrant,adj,脱离正轨的,0.0
 disperse,v,散开，驱散,0.0
 ponder,v,深思，仔细考虑,0.0
 suspense,n,悬疑，焦虑,0.0
 arrogant,adj,傲慢的，自大的,0.0
-smear,n/v,诋毁，诽谤，污渍,0.0
+smear,n/v,诋毁，诽谤，污渍,1.0
 tenet,n,宗旨，教义,0.0
 wretch,n,悲惨的人，混蛋,0.0
 ruthless,adj,无情的，冷酷的，残忍的,0.0
@@ -19,8 +19,8 @@ lobby,n/v,休息室，大厅，游说,0.0
 toed,v/adj,用脚尖走，斜着钉，有趾的,0.0
 vigilance,n,警戒，警惕,0.0
 legislature,n,立法机关，议会,0.0
-glean,v,收集，拾落穗,0.0
-tally,n/v,帐目，得分，符合账单,0.0
+glean,v,收集，拾落穗,1.0
+tally,n/v,帐目，得分，符合账单,1.0
 curl,n/v,蜷缩，卷曲,0.0
 pursue,v,追求，追逐,0.0
 angiosperm,n,被子植物,0.0
@@ -32,8 +32,8 @@ petition,n/v,请愿，祈求,0.0
 tribal,adj,部落的,0.0
 seismic,adj,地震的,0.0
 designate,v/adj,指定，指明，指示,0.0
-barren,adj,贫瘠的，无价值的,0.0
-sore,n/adj,痛处，疼痛的,0.0
+barren,adj,贫瘠的，无价值的,1.0
+sore,n/adj,痛处，疼痛的,1.0
 bellows,n/v,风箱，咆哮,0.0
 ripe,adj,成熟的,0.0
 counterpart,n,副本，对应的人,0.0
@@ -44,7 +44,7 @@ assortment,n,各式各样的,0.0
 reproach,n/v,责备，指责,0.0
 gratify,v,使满足，使高兴,0.0
 encroach,v,侵犯，侵害,0.0
-glorious,adj,光荣的，辉煌的,0.0
+glorious,adj,光荣的，辉煌的,1.0
 focal,adj,焦点的，中心的,0.0
 toady,n/v,谄媚，奉承,0.0
 hearsay,n,传闻，谣言,0.0
@@ -58,7 +58,7 @@ antecedent,n/adj,前情，在...之前,0.0
 dote,v,溺爱，宠爱,0.0
 consecutive,adj,连续的，连贯的,0.0
 clump,n/v,凝结成块，沉重的脚步声,0.0
-rally,n/v,集会，振作，复苏,0.0
+rally,n/v,集会，振作，复苏,1.0
 scatter,v,分散，散开,0.0
 proliferate,v,繁殖，扩散,0.0
 errand,n,差事,0.0
@@ -70,7 +70,7 @@ cape,n,披风，海角,0.0
 sled,n/v,雪橇，坐雪橇,0.0
 vital,adj,至关重要的，充满活力的，生死攸关的,0.0
 besiege,v,围攻,0.0
-scout,n/v,侦察，物色，搜寻,0.0
+scout,n/v,侦察，物色，搜寻,1.0
 herd,n/v,兽群，放牧,0.0
 sew,v,缝补,0.0
 buck,n/v,美元，公羊，抵制,0.0
