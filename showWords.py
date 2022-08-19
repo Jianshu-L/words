@@ -9,7 +9,10 @@ import random
 def showWords(df,index):
     print(np.floor(df.shape[0]/20))
     if index == 0:
-        return df.sample(n=20)
+        if df.shape[0] < 40:
+            return df.sample(n=df.shape[0])
+        else:
+            return df.sample(n=20)
     if index > np.floor(df.shape[0]/20):
         index = np.int8(np.floor(df.shape[0]/20))
         return df.iloc[:-index*20,:]
@@ -21,7 +24,10 @@ def showWords(df,index):
 # %%
 if __name__ == '__main__':
     # words = ["revoke","recoil","strip","vicious","relegate","shrewd", "resent","crusade","thorn","lethal","eloquent","reluctant","garb","substantial"]
-    df = pd.read_csv(f"words_{sys.argv[1]}.csv")
+    if sys.argv[1] == "forget":
+        df = pd.read_csv(f'{sys.argv[1]}.csv')
+    else:
+        df = pd.read_csv(f"words_{sys.argv[1]}.csv")
     index = np.int8(sys.argv[2])
     try:
         Random = sys.argv[3]
