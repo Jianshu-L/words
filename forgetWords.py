@@ -4,7 +4,7 @@ from IPython.display import display
 import pandas as pd
 import os
 import numpy as np
-import random
+from collections import Counter
 Path = "/mnt/c/Users/ljs/Documents"
 fileNames = [fileName for fileName in os.listdir(Path) if fileName.endswith("csv")]
 # df = pd.read_csv(f'{Path}/{fileNames[0]}',header=None, names=np.array(["words","property","meaning"]))
@@ -16,15 +16,19 @@ def assignForget(df, words):
         forget = df['forget'].values
     except:
         forget = np.zeros(df.shape[0])
-    for word in words:
-        if word.startswith("-"):
-            index = np.where(df['words'] == word[1:])
-            forget[index] = 0
-        else:
-            index = np.where(df['words'] == word)
-            forget[index] = 1
-    df['forget'] = forget
-    return df
+    # assign forget from words
+    words_minus = [word for word in words if word.startswith("-")]
+    words_add = [word for word in words if not word.startswith("-")]
+    NonExist = []
+    for word in words_add:
+        if len(forget[df['words'] == word]) == 0:
+            NonExist.append(word)
+        forget[df['words'] == word] = 1
+    for word in words_minus:
+        if len(forget[df['words'] == word]) == 0:
+            NonExist.append(word)
+        forget[df['words'] == word] = 0
+    return forget, NonExist
 
 def showWords(df,index):
     print(np.floor(df.shape[0]/20))
@@ -45,16 +49,24 @@ def showForget(df):
 if __name__ == '__main__':
     fileNames = [fileName for fileName in os.listdir() if fileName.endswith("csv")]
     df_f = pd.DataFrame()
+    NonExist = []
     for fileName in fileNames:
         df = pd.read_csv(fileName)
         # assign forget words
         if len(sys.argv) > 1:
             words = sys.argv[1:]
-            df = assignForget(df, words)
+            forget,NonExist_ = assignForget(df, words)
+            df['forget'] = forget
+            NonExist += NonExist_
             df.to_csv(fileName, index=False)
             df.to_markdown(fileName.replace("csv","md"))
         df_f_i = showForget(df).sample(frac=1)
         df_f = pd.concat([df_f,df_f_i],ignore_index=True)
         df_f_i.to_markdown(f'{fileName.replace(".csv","_")}forget.md')
+dictWords = Counter(NonExist)
+bug_words = [k for k,v in dictWords.items() if v == len(fileNames)]
+print(f'{bug_words} not exist')
+df_f.to_csv("forget.csv", index=False)
 df_f.to_markdown("forget.md")
+
 
