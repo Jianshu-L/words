@@ -47,7 +47,8 @@ def showForget(df):
 
 # %%
 if __name__ == '__main__':
-    fileNames = [fileName for fileName in os.listdir() if fileName.endswith("csv")]
+    fileNames = [fileName for fileName in os.listdir()\
+         if fileName.startswith("words") and fileName.endswith("csv")]
     df_f = pd.DataFrame()
     NonExist = []
     for fileName in fileNames:
