@@ -27,7 +27,7 @@ angiosperm,n,被子植物,0.0
 cramped,v/adj,束缚，狭窄的,0.0
 shellfish,n,贝壳类动物,0.0
 postpone,v,延期,0.0
-gnaw,v,啃，咬，折磨，侵蚀,0.0
+gnaw,v,啃，咬，折磨，侵蚀,1.0
 petition,n/v,请愿，祈求,0.0
 tribal,adj,部落的,0.0
 seismic,adj,地震的,0.0
@@ -44,7 +44,7 @@ assortment,n,各式各样的,0.0
 reproach,n/v,责备，指责,0.0
 gratify,v,使满足，使高兴,0.0
 encroach,v,侵犯，侵害,0.0
-glorious,adj,光荣的，辉煌的,1.0
+glorious,adj,光荣的，辉煌的,0.0
 focal,adj,焦点的，中心的,0.0
 toady,n/v,谄媚，奉承,0.0
 hearsay,n,传闻，谣言,0.0
@@ -81,7 +81,7 @@ flap,n/v,拍动，摆动，焦虑，封盖,0.0
 adjunct,n/adj,附件，附属的,0.0
 wasp,n,黄蜂,0.0
 foment,v,煽动，激起,0.0
-stalk,n/v,茎，跟踪，昂首阔步地走,0.0
+stalk,n/v,茎，跟踪，昂首阔步地走,1.0
 sanctuary,n,避难所，庇护所,0.0
 closet,adj/n,隐藏的，壁橱,0.0
 speculate,v,推测，思索，投机,0.0
