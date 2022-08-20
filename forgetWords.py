@@ -17,7 +17,7 @@ def assignForget(df, words):
     except:
         forget = np.zeros(df.shape[0])
     # assign forget from words
-    words_minus = [word for word in words if word.startswith("-")]
+    words_minus = [word[1:] for word in words if word.startswith("-")]
     words_add = [word for word in words if not word.startswith("-")]
     NonExist = []
     for word in words_add:
