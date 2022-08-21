@@ -1,8 +1,8 @@
 words,property,meaning,forget
-detract,v,降低，诋毁,0.0
+detract,v,降低，诋毁,1.0
 scourge,n/v,灾难，鞭子,1.0
 aberrant,adj,脱离正轨的,0.0
-disperse,v,散开，驱散,0.0
+disperse,v,散开，驱散,1.0
 ponder,v,深思，仔细考虑,0.0
 suspense,n,悬疑，焦虑,0.0
 arrogant,adj,傲慢的，自大的,0.0
@@ -60,7 +60,7 @@ consecutive,adj,连续的，连贯的,0.0
 clump,n/v,凝结成块，沉重的脚步声,0.0
 rally,n/v,集会，振作，复苏,1.0
 scatter,v,分散，散开,0.0
-proliferate,v,繁殖，扩散,0.0
+proliferate,v,繁殖，扩散,1.0
 errand,n,差事,0.0
 horde,n,一大群,0.0
 coverage,n,覆盖范围，新闻报道,0.0
@@ -74,7 +74,7 @@ scout,n/v,侦察，物色，搜寻,1.0
 herd,n/v,兽群，放牧,0.0
 sew,v,缝补,0.0
 buck,n/v,美元，公羊，抵制,0.0
-avert,v,转移，避开，避免,0.0
+avert,v,转移，避开，避免,1.0
 shuttle,n/v,穿梭，往返,0.0
 sake,n,缘故，理由,0.0
 flap,n/v,拍动，摆动，焦虑，封盖,0.0

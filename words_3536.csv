@@ -17,7 +17,7 @@ modest,adj,谦虚的，不多的,0.0
 hike,n/v,远足，增加,0.0
 scurry,n/v,疾走，急赶,0.0
 indigestion,n,消化不良,0.0
-perpetuate,v,持续，长存,0.0
+perpetuate,v,持续，长存,1.0
 twine,n/v,麻绳，盘绕,0.0
 concede,v,承认失败，让步,1.0
 rod,n,杆，棒,0.0
@@ -47,7 +47,7 @@ despise,v,鄙视，蔑视,0.0
 trumpet,n/v,宣扬，小号,0.0
 convene,v,召集，开会,1.0
 babble,n/v,言语模糊，潺潺声,0.0
-canopy,n,树荫，遮蓬,0.0
+canopy,n,树荫，遮蓬,1.0
 exclaim,v,呼喊，大叫,0.0
 anomalous,adj,反常的,0.0
 dissent,n/v,异议，不同意见,0.0
