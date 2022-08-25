@@ -43,7 +43,7 @@ if __name__ == '__main__':
     else:
         Order = 0
     try:
-        Random = sys.argv[3]
+        Random = np.int8(sys.argv[3])
     except:
         Random = 0
     if Random:
