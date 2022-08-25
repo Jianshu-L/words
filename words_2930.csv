@@ -3,20 +3,20 @@ graphite,n,石墨,0.0
 shuffle,n/v,推给，拖步走,0.0
 rebate,n/v,折扣，退款,0.0
 endorse,v,签署，背书,1.0
-subsidiary,n/adj,附属的，附属公司,1.0
+subsidiary,n/adj,附属的，附属公司,0.0
 perquisite,n,特权，补贴,0.0
 mortgage,n/v,抵押，按揭,0.0
 insolvent,n/adj,破产，无力偿还,0.0
 lucrative,adj,赚大钱的,0.0
-patronize,v,光顾，资助，seems friendly but superior,0.0
-recoup,v,恢复健康，偿还，挽回损失,0.0
+patronize,v,光顾，资助，seems friendly but superior,1.0
+recoup,v,恢复健康，偿还，挽回损失,1.0
 monetary,adj,货币的,0.0
 redeem,v,赎回，挽回，履行,1.0
 choir,n,唱诗班,0.0
 stagnant,adj,停滞的，不景气的,1.0
 basin,n,脸盆，水池,0.0
 premise,n/v,前提，假定,0.0
-transact,v,办理业务,0.0
+transact,v,办理业务,1.0
 alleviate,v,减轻，缓和,1.0
 punctual,adj,准时的,0.0
 dogged,v/adj,缠住，顽固的,0.0
@@ -41,8 +41,8 @@ flint,n,打火石,0.0
 subdue,v,征服，克服,1.0
 ceramic,n/adj,陶瓷的，瓷器,0.0
 adhere,v,附着，坚持,0.0
-startling,adj,"extraordinary, shocking",0.0
-imperative,n/adj,非常重要的，祈使句,0.0
+startling,adj,"extraordinary, shocking",1.0
+imperative,n/adj,非常重要的，祈使句,1.0
 choreograph,v,编舞,0.0
 prosper,v,成功，繁荣,0.0
 collapse,n/v,倒塌，崩塌,0.0
@@ -50,10 +50,10 @@ catalyst,n,催化剂,0.0
 devour,v,吞噬,0.0
 magnify,v,扩大,0.0
 coarse,adj,粗糙的，粗鲁的,0.0
-pitch,n/v,程度，运动场，throw，invade,0.0
+pitch,n/v,rise to a degree，运动场，throw，sales pitch,0.0
 ivory,n,象牙，乳白色,0.0
 entail,v,需要，必须,0.0
-wrap,n/v,围巾，覆盖,0.0
+wrap,n/v,围巾，覆盖,1.0
 consonant,n/adj,辅音，一致的,0.0
 vibrant,adj,振动的，有活力的,0.0
 agitate,v,搅动，鼓动，焦虑,1.0
@@ -63,17 +63,17 @@ gloomy,adj,悲伤的，阴沉的,0.0
 tangible,adj,可触摸的，确凿的,0.0
 chronological,adj,按时间先后顺序的,0.0
 provoke,v,激怒,0.0
-swoon,n/v,昏厥，下跌,0.0
+swoon,n/v,昏厥，下跌,1.0
 monument,n,纪念碑,0.0
 spring,n/v,跳跃，泉水，发条,0.0
 patent,n/adj,专利,0.0
 remnant,n/adj,剩余，残留的,0.0
-exotic,adj,外来的，奇异的,0.0
+exotic,adj,外来的，奇异的,1.0
 protest,n/v,抗议,0.0
 pendant,n/adj,垂饰，垂吊的,0.0
 pasture,n/v,放牧，牧草,1.0
 delta,n,三角洲,0.0
-cram,n/v,塞满，填鸭式记忆,0.0
+cram,n/v,塞满，填鸭式记忆,1.0
 precursor,n,先兆，先驱,0.0
 teem,v,充满，充斥,0.0
 rank,adj,繁茂的，恶臭的，讨厌的,0.0
@@ -85,4 +85,4 @@ scavenger,n,食腐动物,0.0
 impart,v,传授，告知,0.0
 substantiate,v,证实,0.0
 entrepreneur,n,企业家,0.0
-exodus,n,大批撤离,0.0
+exodus,n,大批撤离,1.0
