@@ -38,7 +38,7 @@ if __name__ == '__main__':
     else:
         df = pd.read_csv(f"words_{sys.argv[1]}.csv")
     index = np.int8(sys.argv[2])
-    if len(sys.argv) == 4:
+    if len(sys.argv) == 5:
         Order = np.int8(sys.argv[4])
     else:
         Order = 0
