@@ -7,7 +7,7 @@ fileNames = [fileName for fileName in os.listdir(Path) if fileName.endswith("csv
 
 if __name__ == '__main__':
     for fileName in fileNames:
-        if os.path.exists(fileNames[0].replace("part","words_")):
+        if os.path.exists(fileName.replace("part","words_")):
             continue
         df = pd.read_csv(f'{Path}/{fileName}',header=None, names=np.array(["words","property","meaning"]))
         try:
