@@ -15,8 +15,8 @@ ingenious,adj,独创的，巧妙的,0.0
 revoke,v,吊销,1.0
 melanin,n,黑色素,0.0
 pierce,v,刺穿，戳入,0.0
-recoil,n/v,报应，反弹，退缩,0.0
-strip,n/v,剥去，剥夺，长条,0.0
+recoil,n/v,报应，反弹，退缩,1.0
+strip,n/v,剥去，剥夺，长条,1.0
 prime,,首要的，全盛时期,0.0
 flock,n/v,群，聚集,0.0
 enactment,n,制定，通过，上演,0.0
@@ -27,7 +27,7 @@ abrasion,n,擦伤，磨损,0.0
 burrow,n/v,挖洞，翻寻，地洞,1.0
 defecate,v,排便,0.0
 crust,n,外壳，地壳,0.0
-evade,v,逃避，躲避,1.0
+evade,v,逃避，躲避,0.0
 credentialism,n,文凭主义,0.0
 arable,adj,适于耕种的,0.0
 divine,adj,神性的,0.0
@@ -37,7 +37,7 @@ shrewd,adj,精明的，敏锐的,1.0
 tame,adj/v,驯养，枯燥无味的，温顺的,0.0
 stigma,n,耻辱，污名,0.0
 resent,v,憎恶，厌恶,0.0
-solemn,adj,庄严的，隆重的,0.0
+solemn,adj,庄严的，隆重的,1.0
 knit,v,编织,0.0
 glorify,v,美化，赞美,0.0
 crusade,n/v,斗争，运动,1.0
@@ -47,14 +47,14 @@ channel,n/v,途径，引导,0.0
 vibration,n,震动，颤动,0.0
 soak,n/v,浸泡，吸收,0.0
 hardy,adj,吃苦耐劳的,0.0
-hieratic,adj,僧侣的,1.0
+hieratic,adj,僧侣的,0.0
 thorn,n,刺，荆棘,0.0
 lethal,adj,致命的,0.0
 heritage,n,遗产，传统,0.0
 cavity,n,腔，孔，洞,0.0
 exterior,n/adj,外表，外面的,0.0
 eloquent,adj,雄辩的,1.0
-reluctant,adj,不情愿的，勉强的,1.0
+reluctant,adj,不情愿的，勉强的,0.0
 convey,v,表达，运送,0.0
 garb,n/v,服装，穿衣，装束,0.0
 stem,n/v,阻止，茎，起源于,0.0
